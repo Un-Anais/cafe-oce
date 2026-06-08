@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Café Océ – Pflanzliche Milchalternativen, veganes Gebäck und bester Kaffee mitten in Zürich." />
+  <title>Café Océ – Pflanzlich. Frisch. Zürich.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav id="main-nav">
+    <a href="#" class="nav-logo">☕ Café <span>Océ</span></a>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">Über uns</a></li>
+      <li><a href="#menu">Getränke</a></li>
+      <li><a href="#milks">Milchalternativen</a></li>
+      <li><a href="#gebaeck">Gebäck</a></li>
+      <li><a href="#location">Standort</a></li>
+    </ul>
+
+    <a href="#menu" class="btn btn-primary nav-cta">Speisekarte</a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menü öffnen">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-eyebrow">🌱 100% pflanzlich &amp; vegan</div>
+      <h1 class="hero-title">
+        Kaffee, der<br><em>wirklich</em><br>für dich ist.
+      </h1>
+      <p class="hero-subtitle">
+        Entdecke unsere Welt der pflanzlichen Milchalternativen, handgefertigten Specialty-Coffees und veganen Gebäckspezialitäten – mitten in Zürich.
+      </p>
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary">Speisekarte erkunden</a>
+        <a href="#location" class="btn btn-outline">Uns besuchen →</a>
+      </div>
+      <div class="hero-note">
+        <span>✔ Glutenfreie Optionen</span>
+        <span>✔ Saisonal &amp; lokal</span>
+        <span>✔ Kein Kompromiss beim Geschmack</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-blob"></div>
+      <div class="hero-badge">🌿 Oat &amp; Soy Barista</div>
+      <div class="hero-badge-2">✨ Neu: Pistachio Latte</div>
+      <div class="hero-card">
+        <span class="card-emoji">🫖</span>
+        <h3>Specialty Coffee</h3>
+        <p>Single Origin Bohnen,<br>mit Liebe zubereit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FEATURES STRIP ============ -->
+  <div class="features-strip">
+    <div class="feature-item">
+      <div class="fi-icon">🌾</div>
+      <span>8 pflanzliche Milchen</span>
+    </div>
+    <div class="feature-item">
+      <div class="fi-icon">🧁</div>
+      <span>Täglich frisches Gebäck</span>
+    </div>
+    <div class="feature-item">
+      <div class="fi-icon">📍</div>
+      <span>Zürich Altstadt</span>
+    </div>
+    <div class="feature-item">
+      <div class="fi-icon">☕</div>
+      <span>Specialty Espresso</span>
+    </div>
+    <div class="feature-item">
+      <div class="fi-icon">🐄</div>
+      <span>100% kuhfrei möglich</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="about-image-stack">
+      <div class="about-img-main">☕</div>
+      <div class="about-img-accent">🌱</div>
+    </div>
+    <div class="about-content">
+      <span class="section-label">Unsere Geschichte</span>
+      <h2 class="section-title">Gegründet aus Überzeugung, nicht aus Trend.</h2>
+      <p style="color: rgba(70,50,57,0.68); font-size: 1rem; line-height: 1.8; margin: 1.5rem 0;">
+        Café Océ entstand aus dem einfachen Wunsch: guten Kaffee trinken, ohne auf Kuhmilch angewiesen zu sein – und dabei keine Abstriche beim Geschmack zu machen. Was als kleines Experiment begann, ist heute Zürichs liebstes veganes Café-Erlebnis.
+      </p>
+      <p style="color: rgba(70,50,57,0.68); font-size: 1rem; line-height: 1.8; margin-bottom: 2rem;">
+        Unser Gebäck wird täglich frisch in der eigenen Küche gebacken, die Bohnen beziehen wir von nachhaltigen Single-Origin-Farmen, und jede unserer Milchalternativen wurde sorgfältig auf Cremigkeit und Schaumfähigkeit getestet.
+      </p>
+      <a href="#menu" class="btn btn-primary">Zum Menü</a>
+      <div class="about-stats">
+        <div class="stat">
+          <div class="stat-number">8+</div>
+          <div class="stat-label">Milchalternativen</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">30+</div>
+          <div class="stat-label">vegane Gebäckarten</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">5★</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section class="menu" id="menu">
+    <div class="menu-header">
+      <div>
+        <span class="section-label">Getränkekarte</span>
+        <h2 class="section-title">Für jeden Moment<br>das richtige Getränk.</h2>
+      </div>
+      <div class="menu-tabs">
+        <button class="menu-tab active">Kaffee</button>
+        <button class="menu-tab">Tee &amp; Matcha</button>
+        <button class="menu-tab">Kalt</button>
+      </div>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-card fade-up">
+        <span class="menu-card-icon">☕</span>
+        <h3>Flat White</h3>
+        <p>Doppelter Ristretto mit samtiger Barista-Hafermilch, dicht und intensiv.</p>
+        <div class="menu-card-footer">
+          <span class="menu-price">CHF 5.50</span>
+          <span class="menu-tag popular">Bestseller</span>
+        </div>
+      </div>
+      <div class="menu-card fade-up">
+        <span class="menu-card-icon">🩷</span>
+        <h3>Pistachio Rose Latte</h3>
+        <p>Espresso, Pistazien-Sirup, Rosenwasser und Mandelmilch – unser Signature.</p>
+        <div class="menu-card-footer">
+          <span class="menu-price">CHF 6.80</span>
+          <span class="menu-tag popular">Neu</span>
+        </div>
+      </div>
+      <div class="menu-card fade-up">
+        <span class="menu-card-icon">🍵</span>
+        <h3>Ceremonial Matcha</h3>
+        <p>Japanischer Zeremonie-Matcha, aufgeschäumt mit Hafermilch oder Soja.</p>
+        <div class="menu-card-footer">
+          <span class="menu-price">CHF 6.20</span>
+          <span class="menu-tag">Vegan</span>
+        </div>
+      </div>
+      <div class="menu-card fade-up">
+        <span class="menu-card-icon">🧊</span>
+        <h3>Iced Brown Sugar Oat</h3>
+        <p>Kaltgebrühter Espresso mit braunem Zucker, Zimt und Eiswürfeln.</p>
+        <div class="menu-card-footer">
+          <span class="menu-price">CHF 7.00</span>
+          <span class="menu-tag popular">Sommer-Hit</span>
+        </div>
+      </div>
+      <div class="menu-card fade-up">
+        <span class="menu-card-icon">🌸</span>
+        <h3>Lavender Fog</h3>
+        <p>Earl Grey, Lavendelsirup und aufgeschäumte Kokosmilch – sanft und blumig.</p>
+        <div class="menu-card-footer">
+          <span class="menu-price">CHF 5.80</span>
+          <span class="menu-tag">Koffeinfrei</span>
+        </div>
+      </div>
+      <div class="menu-card fade-up">
+        <span class="menu-card-icon">🍫</span>
+        <h3>Schweizer Kakao</h3>
+        <p>Echte Schweizer Schokolade, aufgelöst in cremiger Hafermilch. Unvergesslich.</p>
+        <div class="menu-card-footer">
+          <span class="menu-price">CHF 5.50</span>
+          <span class="menu-tag">Lokal</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MILCHALTERNATIVEN ============ -->
+  <section class="milks" id="milks">
+    <div class="milks-inner">
+      <div class="milks-content">
+        <span class="section-label">Milchalternativen</span>
+        <h2 class="section-title">Kein Kompromiss.<br>8 pflanzliche Optionen.</h2>
+        <p>
+          Wir haben jede Milch monatelang auf Cremigkeit, Schaumverhalten und Geschmack getestet. Das Ergebnis: 8 sorgfältig ausgewählte Alternativen zur Kuhmilch – für jeden Kaffee die perfekte Basis.
+        </p>
+        <a href="#location" class="btn" style="background: var(--blush); color: var(--aubergine);">Uns besuchen &amp; probieren</a>
+      </div>
+      <div class="milks-grid">
+        <div class="milk-chip">
+          <span class="mc-icon">🌾</span>
+          <div>
+            <span class="mc-name">Hafermilch</span>
+            <span class="mc-note">Barista Edition</span>
+          </div>
+        </div>
+        <div class="milk-chip">
+          <span class="mc-icon">🫘</span>
+          <div>
+            <span class="mc-name">Sojamilch</span>
+            <span class="mc-note">Klassiker, cremig</span>
+          </div>
+        </div>
+        <div class="milk-chip">
+          <span class="mc-icon">🥥</span>
+          <div>
+            <span class="mc-name">Kokosmilch</span>
+            <span class="mc-note">Tropisch-mild</span>
+          </div>
+        </div>
+        <div class="milk-chip">
+          <span class="mc-icon">🌰</span>
+          <div>
+            <span class="mc-name">Mandelmilch</span>
+            <span class="mc-note">Leicht &amp; nussig</span>
+          </div>
+        </div>
+        <div class="milk-chip">
+          <span class="mc-icon">🍚</span>
+          <div>
+            <span class="mc-name">Reismilch</span>
+            <span class="mc-note">Allergenarm</span>
+          </div>
+        </div>
+        <div class="milk-chip">
+          <span class="mc-icon">🌿</span>
+          <div>
+            <span class="mc-name">Hanfmilch</span>
+            <span class="mc-note">Reich an Omega-3</span>
+          </div>
+        </div>
+        <div class="milk-chip">
+          <span class="mc-icon">🫐</span>
+          <div>
+            <span class="mc-name">Erbsenmilch</span>
+            <span class="mc-note">Proteinreich</span>
+          </div>
+        </div>
+        <div class="milk-chip">
+          <span class="mc-icon">🥜</span>
+          <div>
+            <span class="mc-name">Cashewmilch</span>
+            <span class="mc-note">Samtig &amp; süss</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GEBÄCK ============ -->
+  <section class="pastry" id="gebaeck">
+    <span class="section-label">Veganes Gebäck</span>
+    <h2 class="section-title">Täglich frisch gebacken.<br>Immer 100% vegan.</h2>
+
+    <div class="pastry-grid">
+      <div class="pastry-card">
+        <div class="pc-visual">🥐</div>
+        <div class="pc-badge">🌱 Vegan</div>
+        <div class="pc-info">
+          <h3>Butter-freies Croissant</h3>
+          <p>Blätterig, goldbraun, unwiderstehlich – ohne tierische Produkte.</p>
+        </div>
+      </div>
+      <div class="pastry-card">
+        <div class="pc-visual">🧁</div>
+        <div class="pc-badge">🌱 Vegan</div>
+        <div class="pc-info">
+          <h3>Matcha-Muffin</h3>
+          <p>Mit weisser Schoko-Kokos-Glasur.</p>
+        </div>
+      </div>
+      <div class="pastry-card">
+        <div class="pc-visual">🍰</div>
+        <div class="pc-badge">🌱 Vegan</div>
+        <div class="pc-info">
+          <h3>Zitronen-Tarte</h3>
+          <p>Cashew-Creme, frische Zitronenschale.</p>
+        </div>
+      </div>
+      <div class="pastry-card">
+        <div class="pc-visual">🍩</div>
+        <div class="pc-badge">🌱 GF</div>
+        <div class="pc-info">
+          <h3>Haferflocken-Donut</h3>
+          <p>Glutenfrei, mit Erdbeer-Glasur.</p>
+        </div>
+      </div>
+      <div class="pastry-card">
+        <div class="pc-visual">🥧</div>
+        <div class="pc-badge">🌱 Vegan</div>
+        <div class="pc-info">
+          <h3>Blaubeerkuchen</h3>
+          <p>Saisonal, aus Schweizer Beeren.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION ============ -->
+  <section class="location" id="location">
+    <div class="location-inner">
+      <div class="location-details">
+        <span class="section-label">Besuche uns</span>
+        <h2 class="section-title">Mitten in Zürich,<br>nah am Herzen.</h2>
+
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-text">
+            <strong>Adresse</strong>
+            <span>Niederdorfstrasse 42<br>8001 Zürich, Schweiz</span>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🕐</div>
+          <div class="info-text">
+            <strong>Öffnungszeiten</strong>
+            <span>Mo–Fr: 07:30 – 18:00 Uhr<br>Sa–So: 08:00 – 17:00 Uhr</span>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🚇</div>
+          <div class="info-text">
+            <strong>Anreise</strong>
+            <span>Tram 4/15: Haltestelle Rathaus<br>3 Minuten Fussweg</span>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📞</div>
+          <div class="info-text">
+            <strong>Kontakt</strong>
+            <span>+41 44 123 45 67<br>hallo@cafe-oce.ch</span>
+          </div>
+        </div>
+
+        <a href="mailto:hallo@cafe-oce.ch" class="btn btn-primary" style="margin-top: 2rem;">Kontakt aufnehmen</a>
+      </div>
+
+      <div class="location-map">🗺️</div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo">☕ Café <span style="color: var(--blush)">Océ</span></div>
+        <p>Pflanzliche Milchalternativen, veganes Gebäck und Specialty Coffee – mit Liebe gemacht in Zürich.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="#about">Über uns</a>
+        <a href="#menu">Getränkekarte</a>
+        <a href="#milks">Milchalternativen</a>
+        <a href="#gebaeck">Gebäck</a>
+        <a href="#location">Standort</a>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <a href="mailto:hallo@cafe-oce.ch">hallo@cafe-oce.ch</a>
+        <a href="tel:+41441234567">+41 44 123 45 67</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Café Océ, Zürich. Alle Rechte vorbehalten.</span>
+      <span><a href="#">Datenschutz</a> · <a href="#">Impressum</a></span>
+    </div>
+  </footer>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script>
+    // Sticky nav
+    const nav = document.getElementById('main-nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Mobile nav toggle
+    const toggle = document.getElementById('nav-toggle');
+    const links  = document.getElementById('nav-links');
+    toggle.addEventListener('click', () => {
+      links.classList.toggle('open');
+    });
+    links.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => links.classList.remove('open'))
+    );
+
+    // Menu tabs (visual only)
+    document.querySelectorAll('.menu-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.menu-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      });
+    });
+
+    // Intersection observer for fade-up
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.style.animationPlayState = 'running';
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.fade-up').forEach(el => {
+      el.style.animationPlayState = 'paused';
+      obs.observe(el);
+    });
+  </script>
+</body>
+</html>
