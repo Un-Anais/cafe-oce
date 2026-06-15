@@ -60,6 +60,10 @@ ul { list-style: none; }
   line-height: 1.15;
   color: var(--aubergine);
 }
+.container {
+  display: flex;
+  gap: 20px;
+}
 .btn {
   display: inline-flex;
   align-items: center;
